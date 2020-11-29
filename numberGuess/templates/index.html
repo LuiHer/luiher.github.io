@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Guessing Game
+{% endblock %}
+
+{% block body %}
+
+
+<!-- TEXT BODY  -->
+<div class="row">
+ <div class="col-sm-2"></div>
+<div class="gralText col-sm-8" style="text-align: center;">
+    <br><br><br><br><br>
+       <h3> Enter an integer between 1 and 100 </h3>
+<br>
+
+<form action="/guess">
+  <input type="text" name="value">
+  <input type="submit" value="start game.">
+</form>
+<!-- Your target is {{ target }}.
+
+{% if target == 1 %}
+Your target is the first number. 
+{% else %}
+Your target is a random number. 
+{% endif %}
+ -->
+
+{% endblock %}
