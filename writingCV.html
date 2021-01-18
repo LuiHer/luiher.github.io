@@ -4,7 +4,7 @@
 <html>
 <head>
     <title>Medical and Scientific Writer</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="styles.css"/>
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -17,7 +17,7 @@
 
 
 </head>
-<body style = "background-color: #FFFFFF; text-align: left; margin-left:5em" class="gralText" >
+<body>
 <!-- 
      <a href="index.html">
 <div class="container-fluid gralText" style="background-color:#4DB6AC;">
@@ -27,36 +27,46 @@
 </div>
 </a> -->
 
-<header id="luxbar" class="luxbar-fixed">
+
+<!-- HEADER -->
+<div>
+ <header id="luxbar" class="luxbar-static">
     <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
-    <div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan gralText" style="background-color:#4DB6AC;">
-        <ul class="luxbar-navigation">
+    <div class="luxbar-menu luxbar-menu-right luxbar-menu-material-indigo gralText highlight" style="background-color:rgba(127,84,165,0);">
+        <ul class="luxbar-navigation" style="font-family: Futura; color: #000000">
             <li class="luxbar-header">
-        <a href="index.html" class="luxbar-brand" style="text-align: center; font-family: condor, sans-serif; font-weight: 400; font-style: normal;font-size: 20px; letter-spacing: 0px; text-transform: uppercase; line-height: 0.7em;">Luisirene Hernandez</a>
+               <a href="index.html" class="luxbar-brand" style="text-align: center; font-family: Futura, sans-serif; font-weight: 400; font-style: normal;font-size: 20px; letter-spacing: 0px; text-transform: uppercase; line-height: 0.7em;">
+               			<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 97.573 73.18">
+ 						 <path id="Icon_awesome-chart-line" data-name="Icon awesome-chart-line" d="M94.524,65.483H12.2V7.549A3.048,3.048,0,0,0,9.147,4.5h-6.1A3.048,3.048,0,0,0,0,7.549V71.581a6.1,6.1,0,0,0,6.1,6.1H94.524a3.048,3.048,0,0,0,3.049-3.049v-6.1A3.048,3.048,0,0,0,94.524,65.483ZM88.425,10.6h-22.5a4.574,4.574,0,0,0-3.234,7.808l6.175,6.175L54.885,38.565,40.9,24.582a6.1,6.1,0,0,0-8.623,0l-13.09,13.09a3.049,3.049,0,0,0,0,4.313L23.5,46.3a3.049,3.049,0,0,0,4.313,0l8.778-8.78L50.572,51.5a6.1,6.1,0,0,0,8.623,0L77.49,33.2l6.175,6.175a4.574,4.574,0,0,0,7.808-3.234v-22.5A3.045,3.045,0,0,0,88.425,10.6Z" transform="translate(0 -4.5)"/>
+</svg></a>
+<a href="index.html" class="luxbar-brand" style="text-align: center; font-family: Futura, sans-serif; font-weight: 400; font-style: normal;font-size: 20px; letter-spacing: 0px; text-transform: uppercase; line-height: 0.7em;">
+Luisirene Hernandez</a>
                 <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
                 id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
             </li>
-            <li class="luxbar-item"><a href="about.html">About</a></li>
-            <li class="luxbar-item"><a href="writing.html">Writing</a></li>
-            <li class="luxbar-item"><a href="datascience.html">Data Science</a></li>
-            <li class="luxbar-item"><a href="consulting.html">Services</a></li>
-            <li class="luxbar-item"><a href="contact.html">Contact</a></li>
+            <li class="luxbar-item"><a href="about.html">ABOUT</a></li>
+            <li class="luxbar-item"><a href="writing.html">WRITING</a></li>
+            <li class="luxbar-item"><a href="datascience.html">DATA SCIENCE</a></li>
+<!--             <li class="luxbar-item"><a href="consulting.html">SERVICES</a></li>
+ -->            <li class="luxbar-item"><a href="contact.html">CONTACT</a></li>
         </ul>
     </div>
 </header>
+<!-- END OF HEADER -->
+</div>
+<div class="row gradlin">
 <br><br><br><br>
 
-<h1 class="gralText" style="font-family: condor, sans-serif; font-weight: 400; font-style: normal;font-size: 37px;">Luisirene Hernandez</h1>
-  <h5 class="gralText" style="font-family: condor, sans-serif; font-weight: 400; font-style: normal;font-size: 24px;">Medical and Scientific Writer</h5>
+<h1 class="title-text" style="text-align: center;">Luisirene Hernandez</h1>
+  <h5 class="body-text" style="text-align: center;">Medical and Scientific Writer</h5>
  
 <!-- LEFT SIDE OF PAGE -->
-<div class="row">
 <div class="col-sm-2"></div>
-<div class=" col-sm-8 experience">
+<div class=" col-sm-8 tiny-text">
 	<br><br>
-<p class="title2"><img src="icons/IconSuitcase.png"> Employment Experience</p>
+<p class="body-text"><img src="icons/IconSuitcase.png"> Employment Experience</p>
 <p>
-<div class="titlePosition">Lab Manager/ Grant Writer </div>
+<div class="body-text">Lab Manager/ Grant Writer </div>
 <div class="place">Instituto Nacional de Cancer Rosa Tavares (INCART) </div>
 </p>
 Part of the inaugural 5 person team for this center and first nuclear reactor in the country. 
@@ -124,7 +134,7 @@ Led an 8-week summer research program that trained 7 undergraduates in the proce
 <!-- RIGHT SIDE OF PAGE -->
 <div>
 <br><br><br>
-<div class="title2">
+<div class="body-text">
 <div><img src="icons/IconBook.png"> Education</span></div>
 </div>
 <p>
@@ -154,7 +164,7 @@ Led an 8-week summer research program that trained 7 undergraduates in the proce
 <br><img src="icons/IconCheck.png">Awardee, Minority Biophysicist Travel Grant (2010) for research in computational biophysics.<br>
 </p>
 <div></div>
-<div class="title2"><br><img src="icons/IconCert.png"> Certifications</div>
+<div class="body-text"><br><img src="icons/IconCert.png"> Certifications</div>
 <p>
 <div class="titlePosition">Good Clinical Practice (GCP) </div>
 <div class="place">National Institutes of Drug Abuse</div>
@@ -263,4 +273,5 @@ SPECT/PET-CT Radiopharmaceuticals</div>
 
 <!-- end of footer  -->
  </div>
+</div>
 </div>

@@ -1,0 +1,92 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.big-text {
+/*  height: 150px;
+  width: 150px;*/
+  font-family: Futura;
+  font-size: 88px;
+}
+
+.title-text {
+text-align: left;
+font-size: 77px;
+font-family: Futura;
+font-style: italic;
+}
+
+.body-text {
+text-align: left;
+font-size: 36px;
+font-family: Futura;
+font-style: italic;
+
+}
+
+.tiny-text {
+  font-family: Futura;
+  font-size: 20px;
+}
+
+.grad1 {
+/*  height: 150px;
+  width: 150px;*/
+  background: radial-gradient(circle, rgba(193,117,148,1) 4%, rgba(83,57,200,0.8631827731092436) 51%);
+
+}
+
+
+.grad2 {
+/*  height: 150px;
+  width: 150px;*/
+/*  background-color: radial-gradient(#3E27BEC3, #C6BECCEF);*/
+  background: radial-gradient(circle, rgba(83,57,200,0.8631827731092436) 14%, rgba(167,112,176,1) 28%, rgba(196,185,198,1) 57%);
+
+  font-family: Futura;
+}
+
+.gradlin {
+/*  height: 150px;
+  width: 150px;*/
+/*  background-color: radial-gradient(#3E27BEC3, #C6BECCEF);*/
+background: linear-gradient(180deg, rgba(196,185,198,1) 37%, rgba(83,57,200,0.8631827731092436) 89%, rgba(167,112,176,1) 100%);
+  font-family: Futura;
+}
+
+
+/*
+.grad1:before {
+    content:"";
+  background: radial-gradient(circle, rgba(193,117,148,1) 4%, rgba(83,57,200,0.8631827731092436) 51%);
+    position: absolute;
+    height: 100%;
+    width: -4000px;
+    left: -2000px;
+    z-index: -1;
+}*/
+
+/* .bg-image { 
+  /* Full height */
+  /*height: 50%;*/
+
+  /* Center and scale the image nicely */
+ /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* Images used */
+/*.img1 { background-image: url("img_snow.jpg"); }
+.img2 { background-image: url("img_girl.jpg"); }
+.img3 { background-image: url("img_lights.jpg"); }
+.img4 { background-image: url("img_nature.jpg"); }
+.img5 { background-image: url("img_forest.jpg"); }
+.img6 { background-image: url("img_woods.jpg"); }*/
